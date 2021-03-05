@@ -485,8 +485,6 @@ Datos_Escorrentia<-function(Precipitacion, precipitacion_efectiva){
 
 Requerimiento<-function(ET,PE,Area){
   cat("\nCalculando el requerimiento de riego...\n")
-  ET
-  PE<-Prec_Efec
   Area<-Zona
   #PE<-Prec_datos
   if (res(ET)!=res(PE)) {
