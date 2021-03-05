@@ -691,7 +691,7 @@ Global<-function(){
   ET<-Modis_mes(Zona, Modis)
   Prec<-Datos_Precipitacion(Zona)
   Prec_Efec<-Datos_Precipitacion_efectiva(Prec,Zona)
-  Escor<-Datos_Escorrentia(Prec,Prec_Efec,Zona)
+  Escor<-Datos_Escorrentia(Prec,Prec_Efec)
   RR<-Requerimiento(ET, Prec_Efec, Zona)
   Vol_ET<-Volumen(ET, Zona)
   #Vol_Escor<-Volumen(Escor,Zona)
